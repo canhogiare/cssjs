@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://nhatotgiatot.com/du-an-can-ho/chung-cu-dream-home-palace.html' target='_blank'><img src='http://i.imgur.com/l08wGqG.jpg' width='500px'/>Vị trí đắc địa Dream Home Palace</a>. Dự án hỗ trợ gói vay 30000 tỷ. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://nhatotgiatot.com/du-an-can-ho/chung-cu-dream-home-palace.html' target='_blank'><img src='http://i.imgur.com/l08wGqG.jpg' width='500px'/><br />Vị trí đắc địa Dream Home Palace</a>. Dự án hỗ trợ gói vay 30000 tỷ. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
